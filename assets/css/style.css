@@ -1,0 +1,63 @@
+:root {
+    --pink: #FFC0CB;
+}
+
+* {
+    background-color: darkslategrey;
+}
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: rgb(216, 99, 118);
+}
+
+header p {
+    color: white;
+}
+section {
+    border: dotted rgb(216, 99, 118);
+    box-sizing: border-box;
+    margin: 40px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    transition: box-shadow .5s ease-in-out;
+}
+
+section:hover {
+    box-shadow:inset 0px 0px 10px 2px rgb(216, 99, 118), 0px 0px 10px 2px rgb(216, 99, 118);
+}
+
+section:hover h2 {
+    box-shadow:inset 0px 0px 10px 2px rgb(216, 99, 118), 0px 0px 10px 2px rgb(216, 99, 118);
+}
+
+h2 {
+    background-color: darkslategrey;
+    border: solid black;
+    border-radius: 10px;
+    padding: 5px;
+    position: absolute;
+    width: 95%;
+    text-align: center;
+    top: -40px;
+    color: rgb(216, 99, 118);
+    transition: box-shadow .5s ease-in-out;
+}
+
+p {
+    color: rgb(216, 99, 118);
+    padding: 2%;
+}
+
+pre {
+    background-image: linear-gradient(rgb(204, 63, 87), pink);
+    border-radius: 10px;
+    padding: 5px;
+    text-align: left;
+    width: 90%;
+}
