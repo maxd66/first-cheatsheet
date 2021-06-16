@@ -1,5 +1,6 @@
 # first-cheatsheet
 small cheatsheet of cool css tricks
+https://maxd66.github.io/first-cheatsheet/
 
 ## Description
 
